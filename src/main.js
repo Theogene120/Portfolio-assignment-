@@ -36,3 +36,37 @@ moon.addEventListener('click', () => {
         moon.innerHTML = '<i class="fa-solid fa-moon"></i>'
     }
 })
+
+const submit = document.getElementById('submit')
+
+
+submit.addEventListener('click', () =>{
+    
+    const name = document.getElementById('name')
+    const email = document.getElementById('email')
+    const comment = document.getElementById('comment')
+    const firstName = name.value.split(' ')[0]
+    if(name.value === "" || email.value === "" || comment.value === ""){
+        alert("⚠️ Please fill all the box before you submit")
+    }else{
+        alert(`✅ Thank you Mr/Ms ${firstName} for your good feedback!`)
+        actsug.classList.toggle('hidden')
+    }
+
+})
+
+const sug = document.getElementById('suggestion')
+const actsug = document.getElementById('actualsug')
+sug.addEventListener('click', () => {
+    actsug.classList.toggle('hidden')
+})
+
+const sug2 = document.getElementById('leave')
+sug2.addEventListener('click', () => {
+    actsug.classList.toggle('hidden')
+})
+
+const sug3 = document.getElementById('review')
+sug3.addEventListener('click', () => {
+    actsug.classList.toggle('hidden')
+})
