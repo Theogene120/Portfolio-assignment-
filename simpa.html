@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6ac1ae398b.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <title>Simplice </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen  w-full">
+ <nav class="bg-purple-100 p-4 shadow-md sticky top-0 z-50">
+  <div class="flex flex-row items-center justify-between w-full relative">
+    <div class="flex items-center space-x-4">
+      <img src="public\PXL_20240618_110352468.NIGHT.jpg" alt="Simplice profile" class="h-16 w-16 rounded-full border-4 border-white">
+      <p class="text-black font-bold font-[cursive] text-lg">Simplice</p>
+    </div>
+
+    <div class="relative">
+      <input type="checkbox" id="navbar" class="peer hidden">
+
+      <label for="navbar" class="cursor-pointer sm:hidden">
+        <i class="fa-solid fa-bars text-2xl"></i>
+      </label>
+
+      <ul
+        class="transition-all duration-500 ease-in-out
+               max-h-0 overflow-hidden
+               peer-checked:max-h-60
+               absolute right-0 mt-2 w-40
+               bg-purple-100 shadow-md rounded-md
+               flex flex-col sm:flex-row sm:static sm:max-h-none sm:overflow-visible sm:w-auto sm:shadow-none sm:rounded-none
+               space-y-2 sm:space-y-0 sm:space-x-8 text-black font-semibold font-[cursive] text-md">
+        <li><a href="index.html" class="hover:text-purple-600 block px-4 py-2 sm:px-0 sm:py-0">Home</a></li>
+        <li><a href="#skills" class="hover:text-purple-600 block px-4 py-2 sm:px-0 sm:py-0">Skills</a></li>
+        <li><a href="#exp" class="hover:text-purple-600 block px-4 py-2 sm:px-0 sm:py-0">Experience</a></li>
+        <li><a href="#hobbies" class="hover:text-purple-600 block px-4 py-2 sm:px-0 sm:py-0">Hobbies</a></li>
+        <div class="w-full sm:w-[30%] flex flex-col items-center mt-10">
+                
+                <label for="review-toggle"
+                    class="bg-purple-700 text-white px-4 py-2 rounded hover:bg-purple-600 cursor-pointer hover:scale-105 transition-transform duration-300 mb-4 w-full text-center sm:w-auto">
+                <input type="checkbox" id="review-toggle" class="hidden peer">
+                <p class="peer-checked">Leave a review</p>
+                
+                <div class="hidden absolute peer-checked:block w-[40rem] max-w-md p-6 bg-gray-100 rounded-lg right-0 top-16">
+                    <h1 class="text-black text-[30px] font-bold mb-4 text-center">Leave your review</h1>
+                    <input type="text" placeholder="Full name" class="border-2 border-gray-300 p-2 rounded mb-4 w-full">
+                    <input type="email" placeholder="Email address"
+                        class="border-2 border-gray-300 p-2 rounded mb-4 w-full">
+                    <input type="text" placeholder="Your review"
+                        class="border-2 border-gray-300 p-2 rounded mb-4 w-full">
+                    <input type="button" value="Submit Review"
+                        class="bg-purple-400 text-white px-4 py-2 rounded hover:bg-purple-600 cursor-pointer w-full hover:scale-105 transition-transform duration-300">
+                </div>
+                </label>
+            </div>
+      </ul>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+    <div class="block bg-black-800 p-8 w-full overflow-y-auto  items-center justify-center">
+
+        <div class="block sm:flex">
+
+
+            <div
+                class="flex flex-col  sm:flex-row p-10 space-y-6 sm:space-y-0 sm:space-x-8 w-full items-center justify-center mx-auto">
+                <div class="w-full sm:w-1/2">
+                    <h1 class="text-[38px] font-sans font-bold">
+                        Hello, I'am
+                        <span class="space-x-2 text-[45px] text-blue-500 [font-family:cursive]">IKUZWE BANA</span>
+                        <span class="text-[45px] text-blue-500 [font-family:cursive]">Simplice</span>
+                    </h1>
+                    <p class="text-[16px] text-gray-700">
+                        I am a UI/UX designer dedicated to crafting user-centered digital experiences that balance creativity and functionality. With skills in research, wireframing, and prototyping, I design interfaces that are visually engaging, intuitive, and easy to navigate. My goal is to create seamless interactions that enhance user satisfaction and connect people with technology in meaningful ways.
+                    </p>
+                </div>
+                <div class="w-full flex justify-center sm:w-1/2">
+                    <img src="public\PXL_20240618_110352468.NIGHT.jpg" alt="Here i am 😁"
+                        class="h-[150px] max-w-[150px] w-full sm:h-[400px] sm:max-w-[400px] sm:w-full rounded-full border-4 sm:border-8 border-blue shadow-md">
+                </div>
+            </div>
+
+
+
+
+
+            
+
+
+        </div>
+
+
+        <div class="block w-full mx-auto items-center justify-center">
+            <h1 class="text-[38px] p-4 font-sans font-bold text-center">Design Process</h1>
+            <p class="text-[16px] text-gray-700 text-center mb-8">
+                I follow a structured design process to ensure that my projects are well-planned and executed. My
+                process includes the following steps:
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-6 w-full mt-20">
+                <div
+                    class="w-full p-4 bg-white rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 transition-transform duration-300">
+                    <i
+                        class="fa-solid fa-people-group text-[30px] text-white p-4 bg-purple-600 rounded-full inline-block sm:animate-[bounce_2s_ease-in-out_infinite]"></i>
+                    <h2 class="text-[24px] font-bold mt-4">Research</h2>
+                    <p class="text-[16px] text-gray-700">Conducting thorough research to understand user needs and
+                        market trends.</p>
+                </div>
+
+                <div
+                    class="w-full p-4 bg-white rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 transition-transform duration-300">
+                    <i
+                        class=" text-[30px] text-white p-4 bg-blue-900 rounded-full inline-block sm:animate-[bounce_2s_ease-in-out_infinite]"></i>
+                    <h2 class="text-[24px] font-bold mt-4">Ideate</h2>
+                    <p class="text-[16px] text-gray-700">Generate and explore creative ideas to solve problems and
+                        inspire innovation.</p>
+                </div>
+
+                <div
+                    class="w-full p-4 bg-white rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 transition-transform duration-300">
+                    <i
+                        class="fa-solid fa-code text-[30px] text-white p-4 bg-purple-600 rounded-full inline-block sm:animate-[bounce_2s_ease-in-out_infinite]"></i>
+                    <h2 class="text-[24px] font-bold mt-4">Design</h2>
+                    <p class="text-[16px] text-gray-700">Plan and create visually appealing, functional solutions that
+                        meet user needs and project goals.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="flex flex-col items-center justify-center mx-auto " id="skills" >
+            <h1 class=" text-[38px] p-4 font-sans font-bold text-center">Tools & Skills</h1>
+            <p class="text-[16px] text-gray-700 text-center">I use a variety of tools and technologies to bring my
+                projects to life. Here are some of the key tools and skills I utilize:</p>
+
+
+            <div class="grid grid-cols-3 mt-12  p-4 gap-4">
+                <div
+                    class="flex items-center space-x-10 bg-gray-200 p-10 rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-300">
+                    <p><i
+                        class="fa-brands fa-html5 text-[30px] text-orange-600 hover:rotate-12 transition-transform duration-300"></i> <br>
+                    <span class="text-[18px] font-semibold">HTML5</span></p>
+                </div>
+                <div
+                    class="flex items-center space-x-10 p-10 bg-gray-200 rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-300">
+                    <p><i class="fa-brands fa-css3 text-[30px] text-blue-600"></i><br>
+                    <span class="text-[18px] font-semibold">tailwindcss</span></p>
+                </div>
+                <div
+                    class="flex items-center space-x-10 p-10 bg-gray-200 rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-300">
+                    <p><i class="fa-brands fa-js text-[30px] text-yellow-600"></i><br>
+                    <span class="text-[18px] font-semibold">JavaScript</span></p>
+                </div>
+                <div
+                    class="flex items-center space-x-10 p-10 bg-gray-200 rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-300">
+                    <p><i class="fa-brands fa-react text-[30px] text-blue-600"></i><br>
+                    <span class="text-[18px] font-semibold">React</span></p>
+                </div>
+                <div
+                    class="flex items-center space-x-10 p-10 bg-gray-200 rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-300">
+                    <p><i class="fa-brands fa-python text-[30px] text-blue-600"></i>
+                    <br>
+                    <span class="text-[18px] font-semibold">Python</span></p>
+                </div>
+                <div
+                    class="flex items-center space-x-10 p-10 bg-gray-200 rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-300">
+                    <i class="fa-brands fa-figma text-[30px] text-blue-600"></i>
+                    <br>
+                    <span class="text-[18px] font-semibold">Figma</span>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="block w-full mx-20 mx-auto items-center justify-center px-4 sm:px-0" id="exp">
+            <h1 class="text-[32px] sm:text-[38px] p-4 font-sans font-bold text-center">Experience</h1>
+            <p class="text-[16px] text-gray-700 text-center mb-6">
+                I gained experience as a UI/UX designer by working on real projects, using tools like Figma and Miro to design, prototype, and test user-friendly interfaces.
+            </p>
+            <div class="space-y-6 sm:space-y-8">
+                <div
+                    class="bg-white p-4 sm:p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-300 w-full">
+                    <h2 class="text-[20px] sm:text-[24px] font-bold mb-2">Web Development Intern</h2>
+                    <p class="text-[14px] sm:text-[16px] text-gray-700 mb-2">POUVOIR TECH HOUSE | January 2025 - August
+                        2026</p>
+                    <ul class="list-disc list-inside text-gray-700 text-[14px] sm:text-[16px] space-y-1">
+                        <li> designed wireframes and prototypes using Figma.</li>
+                        <li>I created user flows to improve the app’s navigation.</li>
+                        <li>I tested designs and collected feedback from users.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="block w-full mx-auto px-4 sm:px-0" id="hobbies">
+            <h1 class="text-[32px] sm:text-[38px] p-4 font-sans font-bold text-center">Hobbies & Interests</h1>
+            <p class="text-[14px] sm:text-[16px] text-gray-700 text-center mb-6">
+                In my free time, I enjoy exploring new technologies and working on personal projects. Here are a few of
+                my hobbies and interests:
+            </p>
+            <div class="sm:flex gap-10 mt-14 pb-10">
+                <div
+                    class="max-w-full w-full bg-white rounded-lg border border-gray-300 shadow-md text-center p-4 sm:p-4 hover:shadow-xl hover:scale-105 transition-transform duration-300">
+                    <i
+                        class="fa-solid fa-music text-[24px] sm:text-[30px] border border-gray-300 text-white p-3 bg-blue-900 rounded-full inline-block hover:rotate-12 transition-transform duration-300"></i>
+                    <h2 class="text-[20px] sm:text-[24px] font-bold mt-4">Music</h2>
+                    <p class="text-[14px] sm:text-[16px] text-gray-700 text-center">
+                        I enjoy listening to a wide variety of music genres and attending live concerts.
+                    </p>
+                </div>
+
+                <div
+                    class="max-w-full  w-full bg-white rounded-lg shadow-md border border-gray-300 text-center p-4 sm:p-4 hover:shadow-xl hover:scale-105 transition-transform duration-300">
+                    <i
+                        class="fa-solid fa-volleyball text-[24px] sm:text-[30px] text-white p-3 bg-blue-900 rounded-full inline-block hover:rotate-12 transition-transform duration-300"></i>
+                    <h2 class="text-[20px] sm:text-[24px] font-bold mt-4">Volleyball</h2>
+                    <p class="text-[14px] sm:text-[16px] text-gray-700 text-center">
+                        I enjoy playing volleyball a lot.
+                    </p>
+                </div>
+
+                <div
+                    class="max-w-full  w-full bg-white rounded-lg shadow-md border border-gray-300 text-center p-4 sm:p-4 hover:shadow-xl hover:scale-105 transition-transform duration-300">
+                    <i
+                        class="fa-solid fa-book-open-reader text-[24px] sm:text-[30px] text-white p-3 bg-blue-900 rounded-full inline-block hover:rotate-12 transition-transform duration-300"></i>
+                    <h2 class="text-[20px] sm:text-[24px] font-bold mt-4">Reading</h2>
+                    <p class="text-[14px] sm:text-[16px] text-gray-700 text-center">
+                        I enjoy reading books.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="bg-purple-100 p-6 mt-8">
+        <div
+            class="w-full flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 text-center">
+            <p class="text-black font-semibold [font-family:cursive]">© 2025 Bana Simplice. All rights reserved.</p>
+            <p class="text-black font-semibold [font-family:cursive]">Contact us</p>
+            <div class="flex space-x-4 text-black text-2xl justify-center">
+                <a href="https://www.linkedin.com/in/ikuzwe-simpa-64a65a357/"><i
+                        class="fa-brands fa-linkedin hover:text-blue-700 transition-colors"></i></a>
+                <a href="https://www.instagram.com/simplice_04/"><i
+                        class="fa-brands fa-instagram hover:text-pink-500 transition-colors"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+
+</body>
+
+</html>
